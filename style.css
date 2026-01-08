@@ -33,6 +33,7 @@ header{
 
 .logo h1{
   font-size: 32px;
+  font-weight:bold;
   color: #2ecc71;
   line-height: 1;
 }
@@ -66,5 +67,102 @@ header{
   cursor: pointer;
 }
 .btn:hover{
-    background-color: #ddf33e;
+    background: #16a34a;
+}
+ /*SECTION1*/
+ #hero {
+  height: 100vh;
+  margin-top: 20px;
+  background-image: url("/image/OIP.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Dark overlay */
+.heror {
+  height: 100%;
+  width: 100%;
+  background: rgba(10, 20, 30, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content */
+.hero-content {
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  background: #e6fff1;
+  color: #1f9d55;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.badge i {
+  margin-right: 6px;
+  font-size: 11px; 
+  font-weight: 400;    
+  color: #22c55e;
+  box-shadow: 0 0 6px rgba(34, 197, 94, 0.9),
+              0 0 12px rgba(34, 197, 94, 0.6);
+  border-radius: 50%;      
+  
+}
+
+/* Heading */
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #22c55e;
+}
+
+/* Paragraph */
+.hero-content p {
+  margin: 20px auto;
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 750px;
+}
+
+/* Buttons */
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Primary button */
+.btn.primary {
+  background: #22c55e;
+  color: #ebedf1;
+}
+
+.btn.primary:hover {
+  background: #16a34a;
+}
+
+/* Secondary button */
+.btn.secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #94a3b8;
+}
+
+.btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
